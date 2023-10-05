@@ -12,8 +12,8 @@ class BodyUtils {
     HomePage(),
     // About(),
     Services(),
-    // Education(), 
-    Portfolio(),
+    //
+    Portfolio(), Education(),
     Contact(),
     Footer(),
   ];

@@ -28,7 +28,8 @@ class ProjectCardState extends State<ProjectCard> {
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
-      onTap: () => openURL(widget.project.links),
+      // onTap: () => openURL(widget.project.links),
+      onTap: () {},
       onHover: (isHovering) {
         if (isHovering) {
           setState(() => isHover = true);
@@ -71,6 +72,7 @@ class ProjectCardState extends State<ProjectCard> {
                     widget.project.description,
                     textAlign: TextAlign.center,
                     style: TextStyle(
+                      // fontSize: 7.sp,
                       color: isHover ? whiteColor : theme.textColor,
                     ),
                   ),
@@ -124,7 +126,7 @@ class MobileProjectCardState extends State<MobileProjectCard> {
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
-      onTap: () => openURL(widget.mobileProject.links),
+      // onTap: () => openURL(widget.mobileProject.links),
       onHover: (isHovering) {
         if (isHovering) {
           setState(() => isHover = true);
@@ -167,6 +169,7 @@ class MobileProjectCardState extends State<MobileProjectCard> {
                     widget.mobileProject.description,
                     textAlign: TextAlign.center,
                     style: TextStyle(
+                      fontSize: 4.sp,
                       color: isHover ? whiteColor : theme.textColor,
                     ),
                   ),

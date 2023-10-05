@@ -19,8 +19,6 @@ class EducationDesktopState extends State<EducationDesktop> {
       child: Column(
         children: [
           const CustomSectionHeading(text: '\nEducation'),
-          Space.y(1.w)!,
-          CustomSectionSubHeading(text: servicesSubHeading),
           Space.y(2.w)!,
           Wrap(
             spacing: width * 0.03,

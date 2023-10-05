@@ -29,6 +29,7 @@ class _NavBarLogoState extends State<NavBarLogo> {
     return Responsive(
       desktop: Image.asset(
         'assets/imgs/logo.png',
+        height: 8.h,
       ),
       tablet: Image.asset(
         'assets/imgs/logo.png',

@@ -12,32 +12,20 @@ class ServicesUtils {
 }
 
 List<ServicesUtils> servicesUtils = [
-  // ServicesUtils(
-  //   name: 'Android App Development',
-  //   icon: 'assets/icons/android.svg',
-  //   description:
-  //       "Are you interested in the great Mobile app? Let's make it a reality.",
-  //   tool: ['Flutter', 'React Native', 'Android (Kotlin or Java)'],
-  // ),
   ServicesUtils(
-    name: 'iOS App Development',
-    icon: 'assets/icons/apple.svg',
-    description:
-        "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'React Native'],
+    name: 'Mobile App Development',
+    icon: 'assets/icons/flutter.svg',
+    description: "Skilled in developing cross-platform mobile applications.",
+    tool: ['Flutter', 'Dart'],
   ),
-  // ServicesUtils(
-  //   name: 'UI/UX Designing',
-  //   icon: 'assets/icons/graphic.svg',
-  //   description:
-  //       "I'm creating elegant designs suited to your needs following core design theory. ",
-  //   tool: ['Adobe XD', 'Figma', 'Photoshop'],
-  // ),
   ServicesUtils(
     name: 'Web Development',
     icon: 'assets/icons/website.svg',
     description:
-        "Do you have an idea for your next great website? Let's make it a reality.",
-    tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
+        "Experienced in developing websites with expertise in modern web technologies.",
+    tool: [
+      'ReactJs',
+      'HTML, CSS, JavaScript',
+    ],
   ),
 ];

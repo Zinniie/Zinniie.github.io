@@ -12,18 +12,10 @@ class EducationUtils {
 }
 
 List<EducationUtils> educationUtils = [
-  // ServicesUtils(
-  //   name: 'Android App Development',
-  //   icon: 'assets/icons/android.svg',
-  //   description:
-  //       "Are you interested in the great Mobile app? Let's make it a reality.",
-  //   tool: ['Flutter', 'React Native', 'Android (Kotlin or Java)'],
-  // ),
   EducationUtils(
-    name: 'iOS App Development',
-    icon: 'assets/icons/apple.svg',
-    description:
-        "Are you interested in the great Mobile app? Let's make it a reality.",
+    name: 'B.A International Relations',
+    icon: 'assets/icons/degree.svg',
+    description: "Houdegbe North American University in Benin",
     tool: ['Flutter', 'React Native'],
   ),
   // ServicesUtils(
@@ -34,10 +26,9 @@ List<EducationUtils> educationUtils = [
   //   tool: ['Adobe XD', 'Figma', 'Photoshop'],
   // ),
   EducationUtils(
-    name: 'Web Development',
-    icon: 'assets/icons/website.svg',
-    description:
-        "Do you have an idea for your next great website? Let's make it a reality.",
+    name: 'Masters in International Law and Diplomacy',
+    icon: 'assets/icons/degree.svg',
+    description: 'University of Lagos',
     tool: ['Flutter', 'Html,css,js', 'Android (Kotlin or Java)'],
   ),
 ];

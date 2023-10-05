@@ -1,7 +1,5 @@
 part of '../education.dart';
 
-
-
 class _EducationCard extends StatefulWidget {
   final EducationUtils education;
 
@@ -45,6 +43,7 @@ class _EducationCardState extends State<_EducationCard> {
             SvgPicture.asset(
               widget.education.icon,
               height: 60,
+              // color: isHover ? theme.textColor : whiteColor,
             ),
             Space.y(3.w)!,
             Text(widget.education.name,
@@ -63,40 +62,6 @@ class _EducationCardState extends State<_EducationCard> {
               ),
             ),
             Space.y(2.w)!,
-            if (Responsive.isDesktop(context))
-              Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: widget.education.tool
-                      .map((e) => Row(
-                            children: [
-                              const Text('🛠   '),
-                              Text(e,
-                                  style: TextStyle(
-                                    color:
-                                        isHover ? whiteColor : theme.textColor,
-                                  )),
-                            ],
-                          ))
-                      .toList()),
-            if (Responsive.isMobile(context) || Responsive.isTablet(context))
-              Expanded(
-                child: ListView(
-                    padding: EdgeInsets.zero,
-                    shrinkWrap: true,
-                    children: widget.education.tool
-                        .map((e) => Row(
-                              children: [
-                                const Text('🛠   '),
-                                Text(e,
-                                    style: TextStyle(
-                                      color: isHover
-                                          ? whiteColor
-                                          : theme.textColor,
-                                    )),
-                              ],
-                            ))
-                        .toList()),
-              )
           ],
         ),
       ),

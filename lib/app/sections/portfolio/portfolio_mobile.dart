@@ -19,7 +19,7 @@ class PortfolioMobileTab extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
-        const CustomSectionHeading(text: "\nProjects"),
+        const CustomSectionHeading(text: "\nMy Works"),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -41,7 +41,7 @@ class PortfolioMobileTab extends StatelessWidget {
         CarouselSlider.builder(
           itemCount: projectUtils.length,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 15.0),
+            padding: const EdgeInsets.symmetric(vertical: 1.0),
             child: ProjectCard(project: projectUtils[i]),
           ),
           options: CarouselOptions(

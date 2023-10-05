@@ -6,6 +6,7 @@ class NavBarUtils {
     // 'ABOUT',
     'SERVICES',
     'WORKS',
+    'EDUCATION',
     'CONTACT',
   ];
 

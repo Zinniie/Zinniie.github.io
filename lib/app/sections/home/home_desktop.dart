@@ -1,3 +1,4 @@
+import 'package:qr_flutter/qr_flutter.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:animated_text_kit/animated_text_kit.dart';
@@ -83,11 +84,26 @@ class HomeDesktop extends StatelessWidget {
                         )),
                   ),
                   Space.y(3.w)!,
-                  ColorChageButton(
-                    text: 'download cv',
-                    onTap: () {
-                      html.window.open(resume, "pdf");
-                    },
+                  Row(
+                    children: [
+                      ColorChageButton(
+                        text: 'download cv',
+                        onTap: () {
+                          html.window.open(resume, "pdf");
+                        },
+                      ),
+                      SizedBox(
+                        width: 6.w,
+                      ),
+                      QrImageView(
+                        data:
+                            'https://www.indeed.com/career-advice/resumes-cover-letters/qr-code-on-resume',
+                        version: QrVersions.auto,
+                        size: 100,
+                        backgroundColor: Colors.white,
+                        // gapless: false,
+                      )
+                    ],
                   ),
                 ],
               ),
