@@ -15,7 +15,7 @@ List<ServicesUtils> servicesUtils = [
   ServicesUtils(
     name: 'Mobile App Development',
     icon: 'assets/icons/flutter.svg',
-    description: "Skille in developing cross-platform mobile applications.",
+    description: "Skilled in developing cross-platform mobile applications.",
     tool: ['Flutter', 'Dart'],
   ),
   ServicesUtils(
