@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:zees_portfolio/core/theme/app_theme.dart';
+
 
 import '../../core/res/responsive.dart';
-import 'custom_outline.dart';
+
 
 class NavBarLogo extends StatefulWidget {
   const NavBarLogo({Key? key}) : super(key: key);
@@ -16,15 +16,15 @@ class _NavBarLogoState extends State<NavBarLogo> {
   Animation? sizeAnimation;
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+
     // theme
-    var theme = Theme.of(context);
+    // var theme = Theme.of(context);
     //
-    var textSty = TextStyle(
-      color: theme.textColor,
-      fontWeight: FontWeight.w100,
-      fontSize: Responsive.isDesktop(context) ? 32 : 20,
-    );
+    // var textSty = TextStyle(
+    //   color: theme.textColor,
+    //   fontWeight: FontWeight.w100,
+    //   fontSize: Responsive.isDesktop(context) ? 32 : 20,
+    // );
 
     return Responsive(
       desktop: Image.asset(

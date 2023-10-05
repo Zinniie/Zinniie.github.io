@@ -23,5 +23,4 @@ String protfolioSubHeading =
 const String aboutMeHeadline =
     'I\'m Ezinne Nnabugwu, a Mobile App developer, Web developer and UI designer.';
 
-const String aboutMeDetail =
-    'I\'m a Fresh Graduate as Software Engineer from Quanrt University, UK. I have been developing mobile apps for over 4 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a CEO/Co-Founder of Onyxsio, Sri Lanka. Currently working as an Associate Software Engineer at Onyxsio.';
+

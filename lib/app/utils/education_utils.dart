@@ -18,13 +18,7 @@ List<EducationUtils> educationUtils = [
     description: "Houdegbe North American University in Benin",
     tool: ['Flutter', 'React Native'],
   ),
-  // ServicesUtils(
-  //   name: 'UI/UX Designing',
-  //   icon: 'assets/icons/graphic.svg',
-  //   description:
-  //       "I'm creating elegant designs suited to your needs following core design theory. ",
-  //   tool: ['Adobe XD', 'Figma', 'Photoshop'],
-  // ),
+
   EducationUtils(
     name: 'Masters in International Law and Diplomacy',
     icon: 'assets/icons/degree.svg',

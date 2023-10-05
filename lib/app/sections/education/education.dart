@@ -2,7 +2,6 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../changes/strings.dart';
 import '../../../core/configs/others/space.dart';
 
 import '../../utils/education_utils.dart';
@@ -13,7 +12,7 @@ import 'package:zees_portfolio/core/theme/app_theme.dart';
 import '../../../core/color/colors.dart';
 
 import '../../../core/res/responsive.dart';
-import '../../utils/services_utils.dart';
+
 
 part 'education_desktop.dart';
 part 'education_mobile.dart';

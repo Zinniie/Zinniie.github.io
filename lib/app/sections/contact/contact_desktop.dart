@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:sizer/sizer.dart';
 
-import '../../../changes/links.dart';
+
 import '../../../changes/strings.dart';
 import '../../../core/color/colors.dart';
 import '../../../core/configs/configs.dart';

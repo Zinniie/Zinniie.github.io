@@ -15,7 +15,7 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
     with TickerProviderStateMixin {
   late AnimationController _controller;
   late AnimationController _controller2;
-  late final Animation<AlignmentGeometry> _alignAnimation;
+  late final Animation<AlignmentGeometry> alignAnimation;
   late Animation sizeAnimation;
 
   @override
@@ -38,7 +38,7 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
       vsync: this,
     )..repeat(reverse: true);
 
-    _alignAnimation = Tween<AlignmentGeometry>(
+    alignAnimation = Tween<AlignmentGeometry>(
       begin: Alignment.topCenter,
       end: Alignment.bottomCenter,
     ).animate(

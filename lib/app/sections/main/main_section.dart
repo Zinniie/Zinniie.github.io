@@ -36,7 +36,7 @@ class MainPage extends StatelessWidget {
     App.init(context);
     final drawerProvider = Provider.of<DrawerProvider>(context);
     double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
+    // double width = MediaQuery.of(context).size.width;
     return Scaffold(
       key: drawerProvider.key,
       extendBodyBehindAppBar: true,

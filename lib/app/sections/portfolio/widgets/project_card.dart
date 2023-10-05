@@ -5,7 +5,6 @@ import 'package:zees_portfolio/core/theme/app_theme.dart';
 
 import '../../../../core/color/colors.dart';
 import '../../../../core/res/responsive.dart';
-import '../../../../core/util/constants.dart';
 import '../../../utils/project_utils.dart';
 
 class ProjectCard extends StatefulWidget {
