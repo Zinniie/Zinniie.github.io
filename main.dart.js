@@ -77056,7 +77056,7 @@ n=A.bC(k,k,B.k,A.ap(51,255,255,255),k,k,k,1,k,k,k,k,k)
 m=A.b_(k,2*$.aM.M()/100,k)
 l=$.aoL()
 l=new A.ex(l,A.a8(l).h("ex<1>"))
-return A.bC(k,A.db(A.a([B.l1,g,B.l4,f,A.bC(k,A.db(A.a([o,n,m,A.NK(B.xg,l.gcP(l).dU(0,new A.YZ(j),t.ao).cI(0),B.dV,50,0)],p),B.I,B.z,B.u),B.k,k,k,new A.cl(k,k,k,r,q,s,B.V),k,k,k,i,k,k,k)],p),B.I,B.z,B.u),B.k,k,k,k,k,k,k,new A.aH(h,0,h,0),k,k,k)}}
+return A.bC(k,A.db(A.a([B.l0,g,B.l4,f,A.bC(k,A.db(A.a([o,n,m,A.NK(B.xg,l.gcP(l).dU(0,new A.YZ(j),t.ao).cI(0),B.dV,50,0)],p),B.I,B.z,B.u),B.k,k,k,new A.cl(k,k,k,r,q,s,B.V),k,k,k,i,k,k,k)],p),B.I,B.z,B.u),B.k,k,k,k,k,k,k,new A.aH(h,0,h,0),k,k,k)}}
 A.YZ.prototype={
 $1(a){var s=a.b.b
 return A.am7(B.fY,A.a9C(s,this.a.ax.a===B.q?B.N:B.R,null),21,new A.YY(a))},
@@ -77078,7 +77078,7 @@ n=A.bC(k,k,B.k,A.ap(51,255,255,255),k,k,k,1,k,k,k,k,k)
 m=A.b_(k,2*$.aM.M()/100,k)
 l=$.aoL()
 l=new A.ex(l,A.a8(l).h("ex<1>"))
-return A.bC(k,A.db(A.a([B.l1,g,B.l4,f,e,A.bC(k,A.db(A.a([p,n,m,A.NK(B.xg,l.gcP(l).dU(0,new A.Z0(j),t.ao).cI(0),B.dV,50,0)],o),B.I,B.z,B.u),B.k,k,k,new A.cl(k,k,k,r,q,s,B.V),k,k,k,i,k,k,k)],o),B.I,B.z,B.u),B.k,k,k,k,k,k,k,new A.aH(h,0,h,0),k,k,k)}}
+return A.bC(k,A.db(A.a([B.l0,g,B.l4,f,e,A.bC(k,A.db(A.a([p,n,m,A.NK(B.xg,l.gcP(l).dU(0,new A.Z0(j),t.ao).cI(0),B.dV,50,0)],o),B.I,B.z,B.u),B.k,k,k,new A.cl(k,k,k,r,q,s,B.V),k,k,k,i,k,k,k)],o),B.I,B.z,B.u),B.k,k,k,k,k,k,k,new A.aH(h,0,h,0),k,k,k)}}
 A.Z0.prototype={
 $1(a){var s=a.b.b
 return A.am7(B.fY,A.a9C(s,this.a.ax.a===B.q?B.N:B.R,null),21,new A.Z_(a))},
@@ -77279,7 +77279,7 @@ ag(){return new A.S4(B.j)}}
 A.S4.prototype={
 I(a){var s=null,r=A.bm(a,s,t.w).w.a.a/8,q=A.b_(s,$.aM.M()/100,s),p=A.b_(s,2*$.aM.M()/100,s),o=$.aM.M(),n=$.aym()
 n=new A.ex(n,A.a8(n).h("ex<1>"))
-return A.bC(s,A.db(A.a([B.l0,q,new A.m_(u.M,s),p,A.NK(B.dU,n.gcP(n).dU(0,new A.agb(),t.Bh).cI(0),B.dV,3*o/100,0),A.b_(s,3*$.aM.M()/100,s),A.ar9(B.Nl,new A.agc())],t.p),B.I,B.z,B.u),B.k,s,s,s,s,s,s,new A.aH(r,0,r,0),s,s,s)}}
+return A.bC(s,A.db(A.a([B.l1,q,new A.m_(u.M,s),p,A.NK(B.dU,n.gcP(n).dU(0,new A.agb(),t.Bh).cI(0),B.dV,3*o/100,0),A.b_(s,3*$.aM.M()/100,s),A.ar9(B.Nl,new A.agc())],t.p),B.I,B.z,B.u),B.k,s,s,s,s,s,s,new A.aH(r,0,r,0),s,s,s)}}
 A.agb.prototype={
 $1(a){return new A.mC(a.b,null)},
 $S:490}
@@ -77289,7 +77289,7 @@ $S:0}
 A.Kc.prototype={
 I(a){var s=null,r=A.b_(s,3*$.aM.M()/100,s),q=10*$.aM.M()/100,p=A.b_(s,5*$.aM.M()/100,s)
 $.aoP()
-return A.db(A.a([B.l0,r,new A.bW(new A.aH(q,0,q,0),new A.m_(u.M,s),s),p,A.alq(new A.a5z(),6,A.alp(!0,B.bK,B.aD,B.hc,!1,!0,70*$.eE.M()/100,0.8)),A.b_(s,3*$.aM.M()/100,s),A.ar9(B.Nm,new A.a5A())],t.p),B.I,B.z,B.u)}}
+return A.db(A.a([B.l1,r,new A.bW(new A.aH(q,0,q,0),new A.m_(u.M,s),s),p,A.alq(new A.a5z(),6,A.alp(!0,B.bK,B.aD,B.hc,!1,!0,70*$.eE.M()/100,0.8)),A.b_(s,3*$.aM.M()/100,s),A.ar9(B.Nm,new A.a5A())],t.p),B.I,B.z,B.u)}}
 A.a5z.prototype={
 $3(a,b,c){return new A.bW(B.DV,new A.xV($.aoP()[c],null),null)},
 $S:67}
@@ -80371,8 +80371,8 @@ B.kY=new A.ht(B.cS,"inactiveGray",null,B.cS,B.cR,B.cS,B.cR,B.cS,B.cR,B.cS,B.cR,0
 B.Wu=new A.adb(B.l_,B.kY)
 B.xn=new A.adc(null,B.Dg,B.kZ,B.Dh,B.kZ,!1,B.Wu)
 B.bI=new A.w4(B.xn,null,null,null,null,null,null,null)
-B.l0=new A.nH("\nMy Works",null)
-B.l1=new A.nH("\nGet in Touch",null)
+B.l0=new A.nH("\nGet in Touch",null)
+B.l1=new A.nH("\nMy Work",null)
 B.l2=new A.nH("\nExpertise",null)
 B.l3=new A.nH("\nEducation",null)
 B.l4=new A.m_("Looking for a dedicated and versatile Flutter Developer? You can contact me via the links below.",null)
@@ -83541,7 +83541,7 @@ r($,"aON","ayh",()=>A.a([A.AM(" Mobile Application Developer",B.b6,$.qi.ja(32)),
 r($,"aP7","ayp",()=>A.a([A.AM(" Mobile Application Developer",B.b6,$.qi.ja(20)),A.AM("Front-end Web Developer",B.b6,$.qi.ja(20))],A.U("p<pA>")))
 r($,"aOU","ayj",()=>A.a([A.AM(" Mobile Application Developer",B.b6,$.qi.ja(16)),A.AM("Front-end Web Developer",B.b6,$.qi.ja(16))],A.U("p<pA>")))
 r($,"aOK","aoL",()=>{var q="https://github.com/Zinniie",p="https://twitter.com/ziiniee",o="https://linkedin.com/in/ezinnennabugwu"
-return A.a([A.G5("assets/icons/github.svg",q,q),A.G5("assets/icons/whatsapp.svg","+2348139067263","https://api.whatsapp.com/send?phone=08139067263"),A.G5("assets/icons/twitterx.svg",p,p),A.G5("assets/icons/linkedin.svg",o,o),A.G5("assets/icons/email.svg","ezinne.blessing@yahoo.com","mailto:ezinne.blessing@yahoo.com")],A.U("p<qH>"))})
+return A.a([A.G5("assets/icons/github.svg",q,q),A.G5("assets/icons/whatsapp.svg","+2348139067263","https://api.whatsapp.com/send?phone=2348139067263"),A.G5("assets/icons/twitterx.svg",p,p),A.G5("assets/icons/linkedin.svg",o,o),A.G5("assets/icons/email.svg","ezinne.blessing@yahoo.com","mailto:ezinne.blessing@yahoo.com")],A.U("p<qH>"))})
 r($,"aOO","akZ",()=>{var q="assets/icons/degree.svg",p=t.s
 return A.a([A.aqa("Houdegbe North American University in Benin",q,"B.A International Relations",A.a(["Flutter","React Native"],p)),A.aqa("University of Lagos",q,"Masters in International Law and Diplomacy",A.a(["Flutter","Html,css,js","Android (Kotlin or Java)"],p))],A.U("p<qW>"))})
 r($,"aP1","aym",()=>{var q="assets/imgs/flutter.png"
