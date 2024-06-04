@@ -10,11 +10,11 @@ class ServiceMobile extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(text: '\nExpertise'),
-        Space.y(3.w)!,
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: servicesSubHeading),
-        ),
+        // Space.y(3.w)!,
+        // Padding(
+        //   padding: EdgeInsets.symmetric(horizontal: 10.w),
+        //   child: CustomSectionSubHeading(text: servicesSubHeading),
+        // ),
         Space.y(5.w)!,
         CarouselSlider.builder(
           itemCount: servicesUtils.length,

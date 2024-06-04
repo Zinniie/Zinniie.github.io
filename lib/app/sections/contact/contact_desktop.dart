@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:sizer/sizer.dart';
 
@@ -99,7 +100,7 @@ class ContactDesktop extends StatelessWidget {
                         .asMap()
                         .entries
                         .map((e) => IconButton(
-                              icon: Image.network(
+                              icon: SvgPicture.asset(
                                 e.value.icon,
                                 color: theme.textColor,
                               ),

@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:qr_flutter/qr_flutter.dart';
 import 'package:sizer/sizer.dart';
 
 import '../../../changes/img.dart';
@@ -21,6 +22,7 @@ class HomeMobile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var theme = Theme.of(context);
     return Padding(
       padding: EdgeInsets.only(left: 10.w, top: 12.h, right: 10.w),
       child: Column(
@@ -63,7 +65,16 @@ class HomeMobile extends StatelessWidget {
               ),
             ],
           ),
-
+          Space.y(3.5.w)!,
+          Padding(
+            padding: EdgeInsets.only(right: 10.w),
+            child: Text(miniDescription,
+                style: TextStyle(
+                  fontSize: isFontSize(context, 14),
+                  fontWeight: FontWeight.w400,
+                  color: theme.textColor.withOpacity(0.6),
+                )),
+          ),
           Space.y(2.w)!,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -74,12 +85,23 @@ class HomeMobile extends StatelessWidget {
                   html.window.open(resume, "pdf");
                 },
               ),
+              //  SizedBox(
+              //   width: 6.w,
+              // ),
+              // QrImageView(
+              //   data:
+              //       'https://drive.google.com/file/d/1-eXMgBfkmKen71hW7qPMWI_NtU5ldgeQ/view?usp=drivesdk',
+              //   version: QrVersions.auto,
+              //   size: 100,
+              //   backgroundColor: Colors.white,
+              //   // gapless: false,
+              // )
               const EntranceFader(
                 offset: Offset(0, 0),
                 delay: Duration(seconds: 1),
                 duration: Duration(milliseconds: 800),
                 child: ZoomAnimations(),
-              )
+              ),
             ],
           ),
         ],

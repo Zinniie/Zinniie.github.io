@@ -15,7 +15,7 @@ class ContactUtils {
 List<ContactUtils> contactUtils = [
   ContactUtils(
     url: gitHub,
-    icon: "https://img.icons8.com/ios-glyphs/60/000000/github.png",
+    icon: "assets/icons/github.svg",
     text: 'https://github.com/Zinniie',
   ),
 
@@ -30,18 +30,23 @@ List<ContactUtils> contactUtils = [
   //     icon: "https://img.icons8.com/ios-filled/50/000000/youtube-play.png"),
   ContactUtils(
     url: whatsapp,
-    icon: "https://img.icons8.com/material-outlined/48/000000/whatsapp.png",
+    icon: "assets/icons/whatsapp.svg",
     text: '+2348139067263',
   ),
   ContactUtils(
     url: twitter,
-    icon: "https://img.icons8.com/fluency/48/000000/twitter.png",
+    icon: "assets/icons/twitterx.svg",
     text: 'https://twitter.com/ziiniee',
   ),
   ContactUtils(
       url: linkedin,
-      icon: "https://img.icons8.com/ios-filled/50/000000/linkedin.png",
+      icon: "assets/icons/linkedin.svg",
       text: 'https://linkedin.com/in/ezinnennabugwu'),
+
+  ContactUtils(
+      url: email,
+      icon: "assets/icons/email.svg",
+      text: 'ezinne.blessing@yahoo.com'),
   // ContactUtils(
   //     url: upwork,
   //     icon: "https://img.icons8.com/ios-filled/50/000000/upwork.png"),

@@ -24,7 +24,7 @@ class Footer extends StatelessWidget {
                 InkWell(
                   onTap: () => openURL(gitHub),
                   child: const Text(
-                    " Ezinne Nnabugwu ",
+                    " Ezinne Blessing Nnabugwu ",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),

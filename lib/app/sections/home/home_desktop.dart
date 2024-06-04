@@ -97,7 +97,7 @@ class HomeDesktop extends StatelessWidget {
                       ),
                       QrImageView(
                         data:
-                            'https://www.indeed.com/career-advice/resumes-cover-letters/qr-code-on-resume',
+                            'https://docs.google.com/document/d/1D-kpq5P9Zh-22FkcjJCQWd-tr9Lhe43Y/edit?usp=drive_link&ouid=101937999042905352119&rtpof=true&sd=true',
                         version: QrVersions.auto,
                         size: 100,
                         backgroundColor: Colors.white,

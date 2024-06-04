@@ -1,6 +1,6 @@
 String hellotag = '''Hello ''';
 
-String yourname = "I am Ezinne Nnabugwu,";
+String yourname = "I am Ezinne Blessing Nnabugwu,";
 
 String animationtxt1 = " Mobile Application Developer";
 String animationtxt3 = "Front-end Web Developer";
@@ -19,8 +19,6 @@ String servicesSubHeading =
 //
 
 String protfolioSubHeading =
-    "Since the inception of my career as a developer, driven by a passion for creating clientside/front-end applications, I have actively contributed to various product developments at my workplace and worked in collaboration with talented professionals to create digital products for both business and consumer use. My expertise lies in creating applications using Flutter, Dart, and ReactJs. I meticulously analyze project requirements, converting them into functional application components, handle state management and interact with REST APIs using an HTTP client.";
+    "Since the inception of my career as a developer, driven by a passion for creating clientside/front-end applications, I have actively contributed to various product developments at my workplace and worked in collaboration with talented professionals to create digital products for both business and consumer use. My expertise lies in creating applications using Flutter, Dart, Kotlin and ReactJs. I meticulously analyze project requirements, converting them into functional application components, handle state management and interact with REST APIs using an HTTP client.";
 const String aboutMeHeadline =
-    'I\'m Ezinne Nnabugwu, a Mobile App developer, Web developer and UI designer.';
-
-
+    'I\'m Ezinne Blessing Nnabugwu, a Mobile App developer, Web developer and UI designer.';

@@ -19,32 +19,22 @@ class PortfolioMobileTab extends StatelessWidget {
     // double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
-        const CustomSectionHeading(text: "\nMy Works"),
+        const CustomSectionHeading(text: "\nMy Work"),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
           child: CustomSectionSubHeading(text: protfolioSubHeading),
         ),
         Space.y(5.w)!,
-        // Wrap(
-        //   alignment: WrapAlignment.start,
-        //   crossAxisAlignment: WrapCrossAlignment.start,
-        //   runSpacing: 3.w,
-        //   children: mobileprojectUtils
-        //       .asMap()
-        //       .entries
-        //       .map(
-        //         (e) => MobileProjectCard(mobileProject: e.value),
-        //       )
-        //       .toList(),
-        // ),
+
         CarouselSlider.builder(
-          itemCount: projectUtils.length,
+          itemCount: mobileprojectUtils.length,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: const EdgeInsets.symmetric(vertical: 1.0),
-            child: ProjectCard(project: projectUtils[i]),
+            child: MobileProjectCard(mobileProject: mobileprojectUtils[i]),
           ),
           options: CarouselOptions(
+            height: 70.h,
             // height: height * 0.4,
             autoPlay: true,
             autoPlayInterval: const Duration(seconds: 5),
@@ -54,6 +44,22 @@ class PortfolioMobileTab extends StatelessWidget {
             enableInfiniteScroll: false,
           ),
         ),
+        // CarouselSlider.builder(
+        //   itemCount: projectUtils.length,
+        //   itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
+        //     padding: const EdgeInsets.symmetric(vertical: 1.0),
+        //     child: ProjectCard(project: projectUtils[i]),
+        //   ),
+        //   options: CarouselOptions(
+        //     // height: height * 0.4,
+        //     autoPlay: true,
+        //     autoPlayInterval: const Duration(seconds: 5),
+        //     enlargeCenterPage: true,
+        //     autoPlayCurve: Curves.fastOutSlowIn,
+        //     autoPlayAnimationDuration: const Duration(milliseconds: 800),
+        //     enableInfiniteScroll: false,
+        //   ),
+        // ),
         Space.y(3.w)!,
         OutlinedButton(
           onPressed: () => openURL(gitHub),

@@ -75,60 +75,44 @@ class MobileProjectUtils {
 
 List<MobileProjectUtils> mobileprojectUtils = [
   MobileProjectUtils(
-    banners: 'assets/imgs/Rectangle 2054.png',
+    banners: 'assets/imgs/fuelprice.PNG',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    titles: 'FuelPrice Marketing',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-  ),
-  MobileProjectUtils(
-    banners: 'assets/imgs/chargx_mobile.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
-    description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
+        'This app seeks to revolutionize marketing. Features include; Intuitive dashboard for monitoring targets. Location services to help agents locate fueling stations, capture info and record interest. Seamless appointment management. Image capture with time, date, and location details, etc.',
   ),
   MobileProjectUtils(
     banners: 'assets/imgs/admin_panel.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome CRM UI',
+    titles: 'Responsive Admin Panel',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-  ),
-  MobileProjectUtils(
-    banners: 'assets/imgs/remis.PNG',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
-    description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-  ),
-  // MobileProjectUtils( bannerWidth: 100,
-  //   banners: 'assets/imgs/mobile_admin.PNG',
-  //   icons: 'assets/imgs/flutter.png',
-  //   titles: 'Awesome Plant App UI',
-  //   description:
-  //       'This is a just Plant App UI by using flutter, source code is also available, check below.',
-
-  // ),
-  MobileProjectUtils(
-    banners: 'assets/imgs/mms.png',
-    icons: 'assets/imgs/reactjs.png',
-    titles: 'Awesome Plant App UI',
-    description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
+        'A responsive admin dashboard built using Flutter that runs on web, android, iOS, macOs; including tablets.',
   ),
   MobileProjectUtils(
     banners: 'assets/imgs/gensys.PNG',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
+    titles: 'Gensys Mobile',
     description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
+        'A role based app for facility and residence owners offering seamless monitoring of fuel delivery and consumption. Its features include tracking of real-time fuel volume and temperature, downloadable reports, convenient ordering of fuel and payment, insights of use of the powergrid and generators, etc.',
+  ),
+  MobileProjectUtils(
+    banners: 'assets/imgs/mms.png',
+    icons: 'assets/imgs/reactjs.png',
+    titles: 'Educational Dashboard',
+    description: 'An E-learning dashboard built using ReactJs.',
   ),
   MobileProjectUtils(
     banners: 'assets/imgs/chargx.PNG',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
+    titles: 'ChargeX',
     description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
+        'This app caters to EV users, focusing on enhancing charging experience. Its features inlclude locating and navigating to nearby EV stations, real-time charger availability status, booking options, charging status notifications, integrated payments, generating vouchers, showcasing transaction history, etc',
+  ),
+  MobileProjectUtils(
+    banners: 'assets/imgs/remis.PNG',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Remis Business',
+    description:
+        'This app helps take charge of monitoring business finances for corporations. Its features include Face unlock/fingerprint authentication. Credit transfers to branches. Monitor financial transactions and so much more',
   ),
 ];
