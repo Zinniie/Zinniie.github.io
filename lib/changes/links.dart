@@ -1,7 +1,6 @@
 // CV
 const String resume =
-    'https://docs.google.com/document/d/1D-kpq5P9Zh-22FkcjJCQWd-tr9Lhe43Y/edit?usp=drive_link&ouid=101937999042905352119&rtpof=true&sd=true';
-
+    'https://drive.google.com/file/d/1Iwxa6073LslVZ_xMAACAq8ATFHif168r/view?usp=drive_link';
 const String gitHub = 'https://github.com/Zinniie';
 
 const String twitter = 'https://twitter.com/ziiniee';

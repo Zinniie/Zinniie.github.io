@@ -4,6 +4,7 @@ String yourname = "I am Ezinne Blessing Nnabugwu,";
 
 String animationtxt1 = " Mobile Application Developer";
 String animationtxt3 = "Front-end Web Developer";
+String animationtxt2 = "Robotic Process Automation Developer";
 
 //
 String contactHeadding =
@@ -15,7 +16,8 @@ String miniDescription =
     "Proficient in designing, developing, building and deploying intuitive applications. Confident in my ability to contribute to the success of any team. I thrive on challenges and I am excited about further professional growth.";
 
 String servicesSubHeading =
-    "Since the inception of my career as a developer, driven by a passion for creating clientside/front-end applications, I have actively contributed to various product developments at my workplace and worked in collaboration with talented professionals to create digital products for both business and consumer use.";
+    "Since the inception of my career as a developer, driven by a passion for creating client-side/front-end applications, I have actively contributed to various product developments at my workplace and worked in collaboration with talented professionals to create digital products for both business and consumer use. In addition, I have extensive experience in automating business processes using Robotic Process Automation (RPA) tools such as Blue Prism, and implementing solutions with C#, Appium, and Selenium, further enhancing operational efficiency and productivity.";
+//"Since the inception of my career as a developer, driven by a passion for creating clientside/front-end applications, I have actively contributed to various product developments at my workplace and worked in collaboration with talented professionals to create digital products for both business and consumer use.";
 //
 
 String protfolioSubHeading =
