@@ -8,6 +8,7 @@ class Footer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int currentYear = DateTime.now().year;
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
     return Column(
@@ -28,7 +29,7 @@ class Footer extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
-                const Text(" © 2023 using Flutter Web"),
+                Text(" © $currentYear using Flutter Web"),
               ],
             ),
           ),
